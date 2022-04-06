@@ -7,7 +7,61 @@
     <title>Figuras Geometricas</title>
 </head>
 <body>
-    <h1>Figuras Geometricas</h1>
+    <header>
+      <h1>Figuras Geometricas</h1>
+      <p>Calcula el área y perimetro de figuras geometricas</p>
+    </header>
+    <section>
+        <h2>Cuadrado</h2>
+        <p>Digita cuanto mide el lado del cuadrado</p>
+        <form action="">
+            <label>
+                Digita el valor del lado:
+            </label>
+            <input type="number"  id="valor">
+            <button type="button" onclick="calcularArea()">Calcular Área</button>
+            <button type="button" onclick="calcularPerimetro()">Calcular Perimetro</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Triángulo</h2>
+        <p>Digita cuanto mide los lados del triángulo</p>
+        <form action="">
+            <label>
+                Digita el valor del lado 1:
+            </label>
+            <input type="number"  id="lado1">
+            <label>
+                Digita el valor del lado 2:
+            </label>
+            <input type="number"  id="lado2">
+            <label>
+                Digita el valor de la base:
+            </label>
+            <input type="number"  id="base">
+            <label>
+                Digita el valor de la Altura:
+            </label>
+            <input type="number"  id="altura">
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular Área</button>
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Circulo</h2>
+        <p>Digita cuanto mide el radio del circulo</p>
+        <form action="">
+            <label>
+                Digita el valor del radio:
+            </label>
+            <input type="number"  id="radio">
+            <button type="button" onclick="calcularAreaCirculo()">Calcular Área</button>
+            <button type="button" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button>
+        </form>
+    </section>
+    
     <script src="./figuras.js">
 
     </script>
